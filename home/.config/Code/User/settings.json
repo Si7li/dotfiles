@@ -1,0 +1,52 @@
+{
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "python.defaultInterpreterPath": "/sbin/python3.14",
+    "window.zoomLevel": -1,
+    "workbench.activityBar.location": "top",
+    "files.associations": {
+        "*.json": "jsonc"
+    },
+    "workbench.editorAssociations": {
+        "*.copilotmd": "vscode.markdown.preview.editor",
+        "*.svg": "default",
+        "*.xlsx": "xlsx-diff.editorPanel",
+        "*.csv": "default"
+    },
+    "openInExternalApp.openMapper": [
+        {
+            "apps": "libreoffice --calc",
+            "extensionName": [
+                ".csv",
+                ".xlsx"
+            ]
+        }
+    ],
+    "mcpServers": {},
+    "chat.viewSessions.orientation": "stacked",
+    "chat.tools.terminal.outputLocation": "terminal",
+    "chat.agent.maxRequests": 100,
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "chat.tools.terminal.autoApprove": {
+        "docker run": true
+    },
+    "wallBash.autoUpdate": true,
+    "wallBash.enableThemeMode": false,
+    "editor.minimap.side": "left",
+    "claudeCode.preferredLocation": "panel",
+    "idf.espIdfPath": "/home/khalils/esp/esp-idf",
+    "idf.toolsPath": "/home/khalils/.espressif",
+    "idf.gitPath": "/usr/bin/git",
+    "idf.saveScope": 1,
+    "idf.pythonBinPath": "/home/khalils/.espressif/python_env/idf5.5_py3.14_env/bin/python",
+    "idf.customExtraPaths": "/home/khalils/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin:/home/khalils/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250422/openocd-esp32/bin:/home/khalils/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin:/home/khalils/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin",
+    "idf.hasWalkthroughBeenShown": true,
+    "idf.eimExecutableArgs": [
+        "gui",
+        "--idf-features ide"
+    ]
+}

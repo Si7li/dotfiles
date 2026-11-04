@@ -1,0 +1,9 @@
+# never commit these, even if a sync picks them up by mistake
+*.zsh_history*
+.zcompdump*
+*.zwc
+*secret*
+*.env
+.env*
+*.bak
+!scan-secrets.sh

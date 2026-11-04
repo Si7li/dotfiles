@@ -1,0 +1,4 @@
+${cacheDir}/wallbash/sddm-candy.colors|${WALLBASH_SCRIPTS}/sddm-candy.sh
+accent=<wallbash_pry4>
+bg=<wallbash_pry2>
+main=<wallbash_txt1>
