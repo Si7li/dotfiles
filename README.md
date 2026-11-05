@@ -17,12 +17,14 @@ My Arch Linux + [HyDE](https://github.com/HyDE-Project/HyDE) (Hyprland) setup.
 | `home/.local/share/sddm-candy-sync/` | makes the SDDM login screen follow the current wallpaper |
 | `packages/` | `pacman.txt` (repo packages), `aur.txt` (AUR packages) |
 | `system/pacman.conf` | includes the Hyprland `IgnorePkg` hold |
-
-Wallpapers/themes are **not** included (they come with HyDE).
+| `themes.lst` | all my HyDE themes with their download links |
+| `wallpapers/` | wallpapers I added myself (theme wallpapers are re-downloaded) |
+| `state/current-theme` | the theme + wallpaper I'm using |
 
 ## Usage
 
 ```bash
 ./backup.sh && git push     # save current configs
 ./restore.sh                # put them back (keeps *.pre-restore copies)
+./install-themes.sh         # reinstall all themes + my wallpapers (needs HyDE at ~/HyDE)
 ```
